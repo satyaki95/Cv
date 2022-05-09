@@ -1,0 +1,98 @@
+body{
+    background-color: lightsteelblue;
+    font-family: 'Playfair Display', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    max-width: 1000px;
+    height: 120px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#11999e ;
+}
+.contact{
+    float: right;
+    padding: 30px;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.Personal{
+    margin-bottom: 30px;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+.chr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.hov a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+progress {
+    border: none;
+    width: 400px;
+    height: 10px;
+    
+    
+  }
+  
+  progress::-webkit-progress-value {
+    background: teal;
+  }
+  .bt{
+      background-color: black;
+      text-align: center;
+      padding: 10px;
+  }
+ .bt a{
+     color: red;
+     text-decoration: none;
+     margin: 20px;
+ }
+ .bt p{
+    color: red;
+    margin-top: 20px;
+ }
